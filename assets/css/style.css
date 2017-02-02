@@ -202,3 +202,92 @@ a:hover {
 .footer, .push {
 	height: 40px; 
 }
+
+/* The following CSS ONLY pertains to the contact sheet (contact.html) */
+form {
+	margin-top: 15px;
+	line-height: 30px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input[type=text] {
+	width: 99%;
+	padding: 8px 10px;
+	box-sizing: border-box;
+	margin: 4px 0;
+	margin-bottom: 15px;
+	font-size: 13px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+textarea {
+	max-width: 99%;
+	width: 99%;
+	height: 50px;
+	max-height: 140px;
+	font-size: 13px;
+	margin: 4px 0;
+	border: 1px solid #dddddd;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.wrapper-content {
+	min-height: 100%;
+	width: 100%;
+	height: 750px;
+	overflow: hidden;
+	margin: 0 auto -40px;
+	background: url("https://subtlepatterns.com/patterns/subtle_white_mini_waves.png");
+}
+
+#Submit {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 16px;
+	color: #ffffff;
+	border: 1px solid #dddddd;
+	background-color: #4aaaa5;
+
+}
+
+.contact-footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	clear: both;
+	border-top: 6px solid #4aaaa5;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 10px;
+	color: #dddddd;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	background-color: #666666;
+}
+
+#contact-form-header {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #4aaaa5;
+	font-size: 26px;
+	padding-bottom: 25px;
+	padding-top: 10px;
+}
+
+#contact-form {
+	position: relative;
+	width: 600px;
+	height: 500px;
+	border: 1px solid #dddddd;
+	float: left;
+	margin-left: 100px;
+	padding: 25px;
+	background-color: #ffffff;
+}
+
+#contact-form-content {
+	border-top: 3px solid #dddddd;
+}
